@@ -3,14 +3,13 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
-*/
+ */
 int main(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+int numbers;
+for (numbers = '0'; numbers <= '9'; numbers++)
 {
-if (alphabet != 'q' && alphabet != 'e')
-putchar(alphabet);
+putchar(numbers);
 }
 putchar('\n');
 return (0);
