@@ -1,4 +1,6 @@
-#_table - the function.
+#include "holberton.h"
+/**
+* times_table - the function.
 *
 *
 * Return: Always 0.
